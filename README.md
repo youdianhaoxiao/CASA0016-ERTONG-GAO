@@ -23,14 +23,15 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 | Hardware | Pin | Pin | Pin | Pin | Pin|
 | --- | --- | --- | --- | --- | --- |
 | DHT22 | VCC->3V3 | IO->PIN2 | GND->GND|
-| Humidifier Driver Circuit | 1 | 1 | 1 | 1 |
-| Relay Modules | 1 | 1 | 1 | 1 | 1 |
+| Humidifier Driver Circuit | DC+->5V | DC-->GND | IN->PIN4 | COM->5V |NO->5V|
+| 1 | 1 | 1 | 1 | 1 | 1 |
 | Neopixel strip | 1 | 1 | 1 | 1 |
 | LCD 16x2 I2C | SDA->SDA | SCL->SCL | VDD->5V | GND->GND |
 
 LCD Display
 ![c6896fd218497940b51ae25db5b2b7e](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/40cbfa99-96a1-445f-bc73-fce0e9cfe295)
-?
+![e0b122edde38b19fd9dd27afc1df210](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/60f680a1-c099-461a-9fba-5b7308c976e0)
+
 
 #### Outer Case
 
@@ -38,3 +39,4 @@ I used 3d printer to print the LCD holder and neopixel holder,
 ![068cc9bd0ea1f8b0f0b1c36714ca73d](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/302de0c8-62c7-4b12-a609-bc404f490955)
 ![8253fe8e870ebfb57b4a9826c4d0470](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/e44c61e6-b3a8-41aa-83b7-56f79015dbd6)
 
+Serial monitor results
