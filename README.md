@@ -11,8 +11,8 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 | --- | --- |
 | Arduino Uno | Useful libraries and has 5v and 3.3v for multiple use, sufficient number of pins for multiple sensors |
 | DHT22 | Sensor for temperature and humidity |
-| Humidifier Driver Circuit |          |
-| Relay Modules |         |
+| Humidifier Driver Circuit | Heating and atomising moisture |
+| Relay Modules | Control circuit switching with high and low levels |
 | Neopixel strip | 8 RGB LED light bulbs |
 | LCD I2C  16x2 | display digitals to visualise the data |
 
@@ -22,3 +22,19 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 #### Pin connection
 | Hardware | Pin | Pin | Pin | Pin | Pin|
 | --- | --- | --- | --- | --- | --- |
+| DHT22 | 1 | 1 | 1|
+| Humidifier Driver Circuit | 1 | 1 | 1 | 1 |
+| Relay Modules | 1 | 1 | 1 | 1 | 1 |
+| Neopixel strip | 1 | 1 | 1 | 1 |
+| LCD 16x2 I2C | 1 | 1 | 1 | 1 |
+
+LCD Display
+![c6896fd218497940b51ae25db5b2b7e](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/40cbfa99-96a1-445f-bc73-fce0e9cfe295)
+?
+
+#### Outer Case
+
+I used 3d printer to print the LCD holder and neopixel holder,
+![068cc9bd0ea1f8b0f0b1c36714ca73d](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/302de0c8-62c7-4b12-a609-bc404f490955)
+![8253fe8e870ebfb57b4a9826c4d0470](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/e44c61e6-b3a8-41aa-83b7-56f79015dbd6)
+
