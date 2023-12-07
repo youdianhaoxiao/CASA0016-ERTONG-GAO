@@ -39,4 +39,10 @@ I used 3d printer to print the LCD holder and neopixel holder,
 ![068cc9bd0ea1f8b0f0b1c36714ca73d](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/302de0c8-62c7-4b12-a609-bc404f490955)
 ![8253fe8e870ebfb57b4a9826c4d0470](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/e44c61e6-b3a8-41aa-83b7-56f79015dbd6)
 
-Serial monitor results
+## Serial monitor results
+
+
+## Result displayed photos
+
+#### DHT22 Humidity and Temperature
+The human body is comfortable with humidity levels between 35% and 60%, so the neopixel displays a red LED if the humidity in the room is less than 35%, a green LED if the humidity in the room is more than 35% and less than 65%, and a blue LED in all other cases.
