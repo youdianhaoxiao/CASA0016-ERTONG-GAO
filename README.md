@@ -22,11 +22,11 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 #### Pin connection
 | Hardware | Pin | Pin | Pin | Pin | Pin|
 | --- | --- | --- | --- | --- | --- |
-| DHT22 | 1 | 1 | 1|
+| DHT22 | VCC->3V3 | IO->PIN2 | GND->GND|
 | Humidifier Driver Circuit | 1 | 1 | 1 | 1 |
 | Relay Modules | 1 | 1 | 1 | 1 | 1 |
 | Neopixel strip | 1 | 1 | 1 | 1 |
-| LCD 16x2 I2C | 1 | 1 | 1 | 1 |
+| LCD 16x2 I2C | SDA->SDA | SCL->SCL | VDD->5V | GND->GND |
 
 LCD Display
 ![c6896fd218497940b51ae25db5b2b7e](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/40cbfa99-96a1-445f-bc73-fce0e9cfe295)
