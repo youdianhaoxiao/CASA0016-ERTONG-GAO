@@ -23,9 +23,9 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 | Hardware | Pin | Pin | Pin | Pin | Pin|
 | --- | --- | --- | --- | --- | --- |
 | DHT22 | VCC->3V3 | IO->PIN2 | GND->GND|
-| Humidifier Driver Circuit | DC+->5V | DC-->GND | IN->PIN4 | COM->5V |NO->5V|
-| 1 | 1 | 1 | 1 | 1 | 1 |
-| Neopixel strip | 1 | 1 | 1 | 1 |
+| relay (electronics) | DC+->5V | DC-->GND | IN->PIN4 | COM->5V(USB input) |NO->5V|
+| Humidifier Driver Circuit | 1 | 1 | 1 | 1 | 1 |
+| Neopixel strip | DIN->PIN 7 | 5VDC->5V | GND->GND |
 | LCD 16x2 I2C | SDA->SDA | SCL->SCL | VDD->5V | GND->GND |
 
 LCD Display
@@ -46,3 +46,4 @@ I used 3d printer to print the LCD holder and neopixel holder,
 
 #### DHT22 Humidity and Temperature
 The human body is comfortable with humidity levels between 35% and 60%, so the neopixel displays a red LED if the humidity in the room is less than 35%, a green LED if the humidity in the room is more than 35% and less than 65%, and a blue LED in all other cases.
+![e9b741c686f197df19ac35bf087deee](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a287ff2c-b73d-4c8e-9343-7a2f572f3f9c)
