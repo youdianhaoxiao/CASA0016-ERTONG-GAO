@@ -1,4 +1,4 @@
-# CASA0016 DIY indoor humidifier device
+# CASA0016 DIY Indoor automatic humidifier
 
 ## Motivation
 According to statistics, people spend more than 90% of their time indoors.Keeping moisture in the air helps some people with dry skin, and particular attention needs to be paid to their respiratory health. A dry environment not only leads to dry skin, but can also lead to respiratory related illnesses. Therefore, humidifiers play an important role in the health of some people with dry skin as an effective respiratory protection device.
