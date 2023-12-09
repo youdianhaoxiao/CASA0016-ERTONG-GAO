@@ -22,7 +22,7 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 #### Pin connection
 | Hardware | Pin | Pin | Pin | Pin | Pin|
 | --- | --- | --- | --- | --- | --- |
-| DHT22 | VCC->3V3 | IO->PIN2 | GND->GND|
+| DHT22 | VCC->3V3 | DAT->PIN2 | GND->GND|
 | relay (electronics) | DC+->5V | DC-->GND | IN->PIN4 | COM->5V(USB input) |NO->5V|
 | Humidifier Driver Circuit | GND->GND |
 | Neopixel strip | DIN->PIN 7 | 5VDC->5V | GND->GND |
