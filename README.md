@@ -12,7 +12,7 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 | Arduino Uno | Useful libraries and has 5v and 3.3v for multiple use, sufficient number of pins for multiple sensors |
 | DHT22 | Sensor for temperature and humidity |
 | Humidifier Driver Circuit | Heating and atomising moisture |
-| Relay Modules | Control circuit switching with high and low levels |
+| Relay (electronics) | Control circuit switching with high and low levels |
 | Neopixel strip | 8 RGB LED light bulbs |
 | LCD I2C  16x2 | display digitals to visualise the data |
 
@@ -54,3 +54,20 @@ The humidifier container was made from laser printing, and I did not use a 3D pr
 #### DHT22 Humidity and Temperature
 The human body is comfortable with humidity levels between 35% and 60%, so the neopixel displays a red LED if the humidity in the room is less than 35%, a green LED if the humidity in the room is more than 35% and less than 65%, and a blue LED in all other cases.
 ![e9b741c686f197df19ac35bf087deee](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a287ff2c-b73d-4c8e-9343-7a2f572f3f9c)
+1 photo
+2 photo
+
+#### relay (electronics)
+The reason I use a relay here is to control the humidifier on/off, and another reason is that if there is a connection problem with any of the components, the relay will also flash red and make an audible sound to alert us that there is a connection problem with one of the components or a short in the wiring.
+![dca503c75ae08d3438bcbaddd5bce7f](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/097b2025-4331-47c8-8deb-e7a7506d541e)
+
+#### Humidifier Driver Circuit
+I use the principle of humidifier module is to use piezoelectric ceramic atomising sheet to produce high frequency resonance, the water into can float 1-5um tiny mist particles, and then catalytic dispersal into the air, and then cotton swabs role is to carry on the water absorption.
+![b860f05e3dc0ab5691ed1e7b55077cc](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/db9ad3d3-463e-41cc-9437-1e4cc7891103)
+![5cb8d876aa9826d330b7bac676090c0](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/ab8eddb5-abb9-48bf-88bd-d7409d6e1d2b)
+
+#### External power supply
+I made a simple external power supply by taking a piece of copper wire and cutting a usb cable short, and proceeded to power the humidifier driver module, because the Arduino uno power supply is weak, so an external power supply is used for powering it.
+![3551c6d22dbd589319b5b5536a750d4](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/6f302473-7e70-43de-aa99-c30e12c06ff4)
+
+## Future Development
