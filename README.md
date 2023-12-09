@@ -24,7 +24,7 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 | --- | --- | --- | --- | --- | --- |
 | DHT22 | VCC->3V3 | IO->PIN2 | GND->GND|
 | relay (electronics) | DC+->5V | DC-->GND | IN->PIN4 | COM->5V(USB input) |NO->5V|
-| Humidifier Driver Circuit | 1 | 1 | 1 | 1 | 1 |
+| Humidifier Driver Circuit | GND->GND |
 | Neopixel strip | DIN->PIN 7 | 5VDC->5V | GND->GND |
 | LCD 16x2 I2C | SDA->SDA | SCL->SCL | VDD->5V | GND->GND |
 
@@ -35,11 +35,18 @@ LCD Display
 
 #### Outer Case
 
-I used 3d printer to print the LCD holder and neopixel holder,
-![068cc9bd0ea1f8b0f0b1c36714ca73d](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/302de0c8-62c7-4b12-a609-bc404f490955)
-![8253fe8e870ebfb57b4a9826c4d0470](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/e44c61e6-b3a8-41aa-83b7-56f79015dbd6)
+I used 3d printer to print the LCD holder and neopixel holder,and attached those two on the top of the sensor container.
+![a4516b74da1f0c99cb565efcbf46ebe](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/ae144ae0-8651-40ed-ab59-8f1192aeaa7c)
+![329601652443b84750fee608575dc43](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/b0271c94-8775-4e75-bf28-48c3d172afc1)
+![7aa83fde4fcf2716cf5695162e911ea](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/c6a76acb-c88f-4d39-8db0-a8a31647bfb2)
+The humidifier container was made from laser printing, and I did not use a 3D printed proper enclosure because I thought laser printing was less time consuming. I punched holes in the laser printed template so that the sensor could sense the outside air and the power cord could stick out.
+1 photo
+2 photo
+3 photo
+4 photo
 
 ## Serial monitor results
+![fbd7423dffc13afcfb616dc317881c6](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/aac82681-813f-4646-8e3b-005e40e44220)
 
 
 ## Result displayed photos
