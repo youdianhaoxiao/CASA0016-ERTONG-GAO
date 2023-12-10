@@ -35,6 +35,7 @@ LCD Display
 ![e0b122edde38b19fd9dd27afc1df210](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/60f680a1-c099-461a-9fba-5b7308c976e0)
 
 Neopixel strip
+
 Here we only use a lamp as an indicator, the follow-up we expect to use the lamp belt to make a more fun effect of the lamp belt, for subsequent upgrades can also be added to more lights to achieve a number of different effects, the lamp belt for our upgrades to do the next pad, for example, we follow up to add two humidifier driver module to increase the effect of humidification, the humidity is lower than 50 to start the two humidifiers, higher than 50 to start a If the humidity is lower than 40, the three humidifiers will be turned on together, so that we can use the back of the strip to indicate the working status of each humidifier, orange represents the corresponding humidifier is in the working state, and purple represents that the humidifier is in the off state, and the humidifier is in the off state, and the humidifier is in the off state.
 ![4f58c4c385c70d066ba6a316a45dc93](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/bc1325db-d5f1-4990-a3dd-f19cb889e3cd)
 ![52a22a73f1960bac5f290cb4bca66cc](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/fef66a2b-3f6b-4b79-ab54-02b0ebeae1d9)
