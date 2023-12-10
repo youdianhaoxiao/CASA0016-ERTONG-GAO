@@ -86,9 +86,11 @@ I made a simple external power supply by taking a piece of copper wire and cutti
 
 ## Future Development
 1.Add a remote control or mobile app to control the humidifier.
+
 2.Add more atomiser driver modules for faster humidification.
 
 
 ## Reference
 https://iaq.works/humidity/indoor-humidity-level-why-is-the-40-60-range-ideal/
+
 https://www.geya.net/what-is-a-relay-module-and-what-does-it-do/
