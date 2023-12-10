@@ -5,7 +5,7 @@ According to statistics, people spend more than 90% of their time indoors.Keepin
 
 ## Aim
 The aim of the project is to collect the indoor temperature and humidity in real time, for each parameter a suitable range is set and a Neopixel LED is used to display the colour.
-The colours corresponding to the humidity are displayed as follows: (1) When the humidity is less than 50%, this time the LED lights up red. (2) When the humidity is between 50% and 60%, the LED lights green. (3) When the humidity is greater than 60% (here it must be greater than 60% instead of greater than or equal to), the LED lights blue.
+The colours corresponding to the humidity are displayed as follows: (1) When the humidity is less than 50%, this time the LED lights up red. (2) When the humidity is between 50% and 60%, the LED lights green. (3) When the humidity is greater than 60% (here it must be greater than 60% instead of greater than or equal to), the LED lights blue and will automatically shut down.
 ## Construction of the physical prototype sensor
 
 | Hardware | Description |
@@ -60,6 +60,7 @@ The human body is comfortable with humidity levels between 40% and 60%, so the n
 
 #### relay (electronics)
 The reason I use a relay here is to control the humidifier on/off, and another reason is that if there is a connection problem with any of the components, the relay will also flash red and make an audible sound to alert us that there is a connection problem with one of the components or a short in the wiring.
+The relay is used to determine whether to energise the humidifier by judging the high and low potential, when pin4 feeds back to the relay a high potential (corresponding to humidity less than 50%), the relay starts to work and energise the humidifier, when pin4 feeds back a low potential (corresponding to humidity greater than 60%), the relay breaks the circuit, and the humidifier will stop working.
 ![dca503c75ae08d3438bcbaddd5bce7f](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/097b2025-4331-47c8-8deb-e7a7506d541e)
 
 #### Humidifier Driver Circuit
