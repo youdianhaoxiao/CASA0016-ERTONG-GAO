@@ -1,11 +1,12 @@
 # CASA0016 DIY Indoor automatic humidifier
 
 ## Motivation
-According to statistics, people spend more than 90% of their time indoors.Keeping moisture in the air helps some people with dry skin, and particular attention needs to be paid to their respiratory health. A dry environment not only leads to dry skin, but can also lead to respiratory related illnesses. Therefore, humidifiers play an important role in the health of some people with dry skin as an effective respiratory protection device.
+Statistics show that people spend more than 90 per cent of their time indoors. Keeping the air humid helps some people with dry skin and also requires special attention to their respiratory health. Dry environments not only cause dry skin, but also respiratory-related illnesses. Especially the elderly, it is very important for them to keep their skin moisturised, but many of them, do not have the awareness and do not know how to use some of the advanced devices, therefore, automatic humidifiers play an important role as an effective respiratory protection device for the health of some people with dry skin.
 
 ## Aim
-The aim of the project is to collect the indoor temperature and humidity in real time, for each parameter a suitable range is set and a Neopixel LED is used to display the colour.
-The colours corresponding to the humidity are displayed as follows: (1) When the humidity is less than 50%, this time the LED lights up red. (2) When the humidity is between 50% and 60%, the LED lights green. (3) When the humidity is greater than 60% (here it must be greater than 60% instead of greater than or equal to), the LED lights blue and will automatically shut down.
+Construct a device that collects external temperature and humidity data, then displays the data on the LCD screen and shows different indicators according to different humidity levels, and then automatically determines whether humidification is required for different humidity data and automatically humidifies the device.
+LED indicator corresponding to the humidity: (1) When the humidity is less than 50%, then the LED lights red. (2) When the humidity is between 50% and 60%, the LED lights green. (3) When the humidity is greater than 60% (here is must be greater than 60% instead of greater than or equal to), the LED lights blue.
+Humidification condition judgement: when the temperature is less than 50% of the humidifier began to work automatically, until the humidity is greater than 60%, the humidifier will automatically stop working!
 ## Construction of the physical prototype sensor
 
 | Hardware | Description |
@@ -24,14 +25,19 @@ The colours corresponding to the humidity are displayed as follows: (1) When the
 | Hardware | Pin | Pin | Pin | Pin | Pin|
 | --- | --- | --- | --- | --- | --- |
 | DHT22 | VCC->3V3 | DAT->PIN2 | GND->GND|
-| relay (electronics) | DC+->5V | DC-->GND | IN->PIN4 | COM->5V(USB input) |NO->5V|
-| Humidifier Driver Circuit | GND->GND |
+| relay (electronics) | DC+->5V | DC-->GND | IN->PIN4 | COM->5V(USB input) |NO->Humidifier Positive|
+| Humidifier Driver Circuit | GND->GND（USB）|
 | Neopixel strip | DIN->PIN 7 | 5VDC->5V | GND->GND |
 | LCD 16x2 I2C | SDA->SDA | SCL->SCL | VDD->5V | GND->GND |
 
 LCD Display
 ![c6896fd218497940b51ae25db5b2b7e](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/40cbfa99-96a1-445f-bc73-fce0e9cfe295)
 ![e0b122edde38b19fd9dd27afc1df210](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/60f680a1-c099-461a-9fba-5b7308c976e0)
+
+Neopixel strip
+![4f58c4c385c70d066ba6a316a45dc93](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/bc1325db-d5f1-4990-a3dd-f19cb889e3cd)
+![52a22a73f1960bac5f290cb4bca66cc](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/fef66a2b-3f6b-4b79-ab54-02b0ebeae1d9)
+
 
 
 #### Outer Case
@@ -40,10 +46,13 @@ I used 3d printer to print the LCD holder and neopixel holder,and attached those
 ![a4516b74da1f0c99cb565efcbf46ebe](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/ae144ae0-8651-40ed-ab59-8f1192aeaa7c)
 ![329601652443b84750fee608575dc43](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/b0271c94-8775-4e75-bf28-48c3d172afc1)
 ![7aa83fde4fcf2716cf5695162e911ea](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/c6a76acb-c88f-4d39-8db0-a8a31647bfb2)
-The humidifier container was made from laser printing, and I did not use a 3D printed proper enclosure because I thought laser printing was less time consuming. I punched holes in the laser printed template so that the sensor could sense the outside air and the power cord could stick out.
+The humidifier container was made from laser printing, and I did not use a 3D printed proper enclosure because I thought laser printing was less time-consuming. I punched holes in the laser printed template so that the sensor could sense the outside air and the power cord could stick out.
 1 photo
+
 2 photo
+
 3 photo
+
 4 photo
 
 ## Serial monitor results
@@ -59,7 +68,7 @@ The human body is comfortable with humidity levels between 40% and 60%, so the n
 2 photo
 
 #### relay (electronics)
-The reason I use a relay here is to control the humidifier on/off, and another reason is that if there is a connection problem with any of the components, the relay will also flash red and make an audible sound to alert us that there is a connection problem with one of the components or a short in the wiring.
+The reason I use a relay here is to control the humidifier on/off，
 The relay is used to determine whether to energise the humidifier by judging the high and low potential, when pin4 feeds back to the relay a high potential (corresponding to humidity less than 50%), the relay starts to work and energise the humidifier, when pin4 feeds back a low potential (corresponding to humidity greater than 60%), the relay breaks the circuit, and the humidifier will stop working.
 ![dca503c75ae08d3438bcbaddd5bce7f](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/097b2025-4331-47c8-8deb-e7a7506d541e)
 
