@@ -49,6 +49,7 @@ I used 3d printer to print the LCD holder and neopixel holder,and attached those
 ![329601652443b84750fee608575dc43](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/b0271c94-8775-4e75-bf28-48c3d172afc1)
 ![7aa83fde4fcf2716cf5695162e911ea](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/c6a76acb-c88f-4d39-8db0-a8a31647bfb2)
 The humidifier container was made from laser printing, and I did not use a 3D printed proper enclosure because I thought laser printing was less time-consuming. I punched holes in the laser printed template so that the sensor could sense the outside air and the power cord could stick out.
+
 1 photo
 
 2 photo
