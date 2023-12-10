@@ -4,7 +4,8 @@
 According to statistics, people spend more than 90% of their time indoors.Keeping moisture in the air helps some people with dry skin, and particular attention needs to be paid to their respiratory health. A dry environment not only leads to dry skin, but can also lead to respiratory related illnesses. Therefore, humidifiers play an important role in the health of some people with dry skin as an effective respiratory protection device.
 
 ## Aim
-
+The aim of the project is to collect the indoor temperature and humidity in real time, for each parameter a suitable range is set and a Neopixel LED is used to display the colour.
+The colours corresponding to the humidity are displayed as follows: (1) When the humidity is less than 50%, this time the LED lights up red. (2) When the humidity is between 50% and 60%, the LED lights green. (3) When the humidity is greater than 60% (here it must be greater than 60% instead of greater than or equal to), the LED lights blue.
 ## Construction of the physical prototype sensor
 
 | Hardware | Description |
@@ -52,7 +53,7 @@ The humidifier container was made from laser printing, and I did not use a 3D pr
 ## Result displayed photos
 
 #### DHT22 Humidity and Temperature
-The human body is comfortable with humidity levels between 35% and 60%, so the neopixel displays a red LED if the humidity in the room is less than 35%, a green LED if the humidity in the room is more than 35% and less than 65%, and a blue LED in all other cases.
+The human body is comfortable with humidity levels between 40% and 60%, so the neopixel displays a red LED if the humidity in the room is less than 50%, a green LED if the humidity in the room is more than 50% and less than 60%, and Greater than 60% will be shown in blue LED.
 ![e9b741c686f197df19ac35bf087deee](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a287ff2c-b73d-4c8e-9343-7a2f572f3f9c)
 1 photo
 2 photo
