@@ -62,20 +62,20 @@ void loop() {
   if(h<50)
   {
     // Red
-    leds[0] = CRGB (50, 0, 0);leds[1] = CRGB (50, 0, 0);leds[2] = CRGB (50, 0, 0);leds[3] = CRGB (50, 0, 0);leds[4] = CRGB (50, 0, 0);leds[5] = CRGB (50, 0, 0);leds[6] = CRGB (50, 0, 0);leds[7] = CRGB (50, 0, 0);
-    digitalWrite(4,HIGH);
+    leds[0] = CRGB (50, 0, 0);
+    digitalWrite(ctrl_pin,HIGH);
   }
   else if(h<60)
   {
     // Green
-    leds[0] = CRGB (0, 50, 0);leds[1] = CRGB (0, 50, 0);leds[2] = CRGB (0, 50, 0);leds[3] = CRGB (0, 50, 0);leds[4] = CRGB (0, 50, 0);leds[5] = CRGB (0, 50, 0);leds[6] = CRGB (0, 50, 0);leds[7] = CRGB (0, 50, 0);
+    leds[0] = CRGB (0, 50, 0);
   }
   else
   { 
     //  Blue
-    leds[0] = CRGB (0, 0, 50);leds[1] = CRGB (0, 0, 50);leds[2] = CRGB (0, 0, 50);leds[3] = CRGB (0, 0, 50);leds[4] = CRGB (0, 0, 50);leds[5] = CRGB (0, 0, 50);leds[6] = CRGB (0, 0, 50);leds[7] = CRGB (0, 0, 50);
-    digitalWrite(4,LOW);
+    leds[0] = CRGB (0, 0, 50);
+    digitalWrite(ctrl_pin,LOW);
   }
   FastLED.show();
-  delay(1000);
+  delay(500);
 }
