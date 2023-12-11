@@ -18,7 +18,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 //SKC6812
 #define LED_PIN     7
-#define NUM_LEDS    8
+#define NUM_LEDS    1
 CRGB leds[1];
 
 //gpio
