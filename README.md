@@ -50,13 +50,6 @@ I used 3d printer to print the LCD holder and neopixel holder,and attached those
 ![7aa83fde4fcf2716cf5695162e911ea](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/c6a76acb-c88f-4d39-8db0-a8a31647bfb2)
 The humidifier container was made from laser printing, and I did not use a 3D printed proper enclosure because I thought laser printing was less time-consuming. I punched holes in the laser printed template so that the sensor could sense the outside air and the power cord could stick out.
 
-1 photo
-
-2 photo
-
-3 photo
-
-4 photo
 
 ## Serial monitor results
 ![fbd7423dffc13afcfb616dc317881c6](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/aac82681-813f-4646-8e3b-005e40e44220)
@@ -67,8 +60,14 @@ The humidifier container was made from laser printing, and I did not use a 3D pr
 #### DHT22 Humidity and Temperature
 The human body is comfortable with humidity levels between 40% and 60%, so the neopixel displays a red LED if the humidity in the room is less than 50%, a green LED if the humidity in the room is more than 50% and less than 60%, and Greater than 60% will be shown in blue LED.
 ![e9b741c686f197df19ac35bf087deee](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a287ff2c-b73d-4c8e-9343-7a2f572f3f9c)
-1 photo
-2 photo
+
+![646b5cc7cbe4d655b7ca4ec0a01263d](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a1dbbe7b-f076-46db-80f5-f37470c831ac)
+
+![562aeab37ed5f0387640f2ef1dc01bf](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/c9ee2df9-2664-4641-acc2-6caab0978676)
+
+![9e3c949293f67a78d9db6f5fc4c3e3a](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a7f0a881-d8c7-4ba8-8159-19fc306024ab)
+
+
 
 #### relay (electronics)
 The reason I use a relay here is to control the humidifier on/off，
