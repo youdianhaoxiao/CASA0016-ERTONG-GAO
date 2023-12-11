@@ -6,7 +6,7 @@ Statistics show that people spend more than 90 per cent of their time indoors. K
 ## Aim
 Construct a device that collects external temperature and humidity data, then displays the data on the LCD screen and shows different indicators according to different humidity levels, and then automatically determines whether humidification is required for different humidity data and automatically humidifies the device.
 LED indicator corresponding to the humidity: (1) When the humidity is less than 50%, then the LED lights red. (2) When the humidity is between 50% and 60%, the LED lights green. (3) When the humidity is greater than 60% (here is must be greater than 60% instead of greater than or equal to), the LED lights blue.
-Humidification condition judgement: when the temperature is less than 50% of the humidifier began to work automatically, until the humidity is greater than 60%, the humidifier will automatically stop working!
+Humidification condition judgement: when the temperature is less than 50% of the humidifier began to work automatically, until the humidity is greater than 60%, the humidifier will automatically stop working.
 ## Construction of the physical prototype sensor
 
 | Hardware | Description |
