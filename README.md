@@ -85,9 +85,14 @@ I made a simple external power supply by taking a piece of copper wire and cutti
 ![3551c6d22dbd589319b5b5536a750d4](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/6f302473-7e70-43de-aa99-c30e12c06ff4)
 
 ## Future Development
-1.Add a remote control or mobile app to control the humidifier.
+* Better outter cases
+  
+<img width="403" alt="94ccd65820b41d1ad8860100c6f8fe5" src="https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/5f20cefc-d2ab-4a5e-b230-9b6fdef6098e">
+<img width="414" alt="395e207a44dde810bca535d12af549a" src="https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/cb2726ba-c332-4a56-89cf-c3c3a4e141f4">
 
-2.Add more atomiser driver modules for faster humidification.
+  
+* Add a remote control or mobile app to control the humidifier.
+* Add more atomiser driver modules for faster humidification.
 
 
 ## Reference
