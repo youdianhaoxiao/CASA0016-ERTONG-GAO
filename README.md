@@ -50,6 +50,14 @@ I used 3d printer to print the LCD holder and neopixel holder,and attached those
 ![7aa83fde4fcf2716cf5695162e911ea](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/c6a76acb-c88f-4d39-8db0-a8a31647bfb2)
 The humidifier container was made from laser printing, and I did not use a 3D printed proper enclosure because I thought laser printing was less time-consuming. I punched holes in the laser printed template so that the sensor could sense the outside air and the power cord could stick out.
 
+![2dd8f639e983d8c222623d0530d3f04](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/c49a8982-6920-4d22-a395-1501a8f1a7bb)
+
+![7502bba9d59e8f5985a2ace331462f3](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/d58cd6f1-81c3-4199-b2b1-71e2cf8107de)
+
+![971e49903348e9181b088e4ba09a401](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/64be8c56-bc35-49db-93b4-cba90bb84c58)
+
+![b4b6239f3cd4f68924ce75065229e85](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/75bb08d9-11a3-4e7e-88fd-283c2a2dc2b8)
+
 
 ## Serial monitor results
 ![fbd7423dffc13afcfb616dc317881c6](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/aac82681-813f-4646-8e3b-005e40e44220)
