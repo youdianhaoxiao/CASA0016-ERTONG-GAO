@@ -9,11 +9,8 @@ LED indicator corresponding to the humidity: (1) When the humidity is less than 
 Humidification condition judgement: when the temperature is less than 50% of the humidifier began to work automatically, until the humidity is greater than 60%, the humidifier will automatically stop working.
 
 
-https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/1a2539d2-0f83-4e76-b888-f1d2d3f5894b
 
-
-
-https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/71471e90-3f09-4440-acbf-70180891b6e1
+https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a722b934-13e8-439a-ba76-17f80e548000
 
 
 
