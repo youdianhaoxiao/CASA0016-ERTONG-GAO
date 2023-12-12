@@ -1,7 +1,7 @@
 # CASA0016 DIY Indoor automatic humidifier
 
 ## Motivation
-Statistics show that people spend more than 90 per cent of their time indoors. Keeping the air humid helps some people with dry skin and also requires special attention to their respiratory health. Dry environments not only cause dry skin, but also respiratory-related illnesses. Especially the elderly, it is very important for them to keep their skin moisturised, but many of them, do not have the awareness and do not know how to use some of the advanced devices, therefore, automatic humidifiers play an important role as an effective respiratory protection device for the health of some people with dry skin.
+Statistics show that people spend more than 90 per cent of their time indoors. Keeping the air humid helps some people with dry skin and also requires special attention to their respiratory health. Dry environments not only cause dry skin, but also respiratory-related illnesses.Therefore, automatic humidifiers play an important role as an effective respiratory protection device for the health of some people with dry skin.
 
 ## Aim
 Construct a device that collects external temperature and humidity data, then displays the data on the LCD screen and shows different indicators according to different humidity levels, and then automatically determines whether humidification is required for different humidity data and automatically humidifies the device.
