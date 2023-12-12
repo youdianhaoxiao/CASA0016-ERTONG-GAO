@@ -10,8 +10,7 @@ Humidification condition judgement: when the temperature is less than 50% of the
 
 
 
-https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/a722b934-13e8-439a-ba76-17f80e548000
-
+https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/25db2615-9068-44ef-972b-c7e125f17572
 
 
 
