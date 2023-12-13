@@ -85,8 +85,7 @@ The human body is comfortable with humidity levels between 40% and 60%, so the n
 
 
 #### relay (electronics)
-The reason I use a relay here is to control the humidifier on/off，
-The relay is used to determine whether to energise the humidifier by judging the high and low potential, when pin4 feeds back to the relay a high potential (corresponding to humidity less than 50%), the relay starts to work and energise the humidifier, when pin4 feeds back a low potential (corresponding to humidity greater than 60%), the relay breaks the circuit, and the humidifier will stop working.
+The reason I use a relay here is to control the humidifier on/off，the relay is used to determine whether to energise the humidifier by judging the high and low potential, when pin4 feeds back to the relay a high potential (corresponding to humidity less than 50%), the relay starts to work and energise the humidifier, when pin4 feeds back a low potential (corresponding to humidity greater than 60%), the relay breaks the circuit, and the humidifier will stop working.
 ![dca503c75ae08d3438bcbaddd5bce7f](https://github.com/youdianhaoxiao/CASA0016-ERTONG-GAO/assets/146217421/097b2025-4331-47c8-8deb-e7a7506d541e)
 
 #### Humidifier Driver Circuit
